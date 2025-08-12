@@ -10,6 +10,9 @@
 ## 📥 Mengunduh Aplikasi Termux <a name=unduh></a>
 
 ### Anda harus mengunduh file APK Termux terbaru dari halaman GitHub resmi mereka. Penting untuk mengunduh dari sumber ini karena versi di Google Play Store tidak lagi diperbarui.
+
+<img src="/assets/img/unduh.jpg"/>
+
 * Kunjungi
    ~~~
    https://github.com/termux/termux-app/releases
@@ -19,7 +22,7 @@
    
 ## ⚙️ Mengaktifkan Sumber Tidak Dikenal <a name=sumber></a>
 
-<img src="/documentation/Screenshot_aplikasi_tidak_dikenal.jpg"/>
+<img src="/assets/img/sumber.jpg"/>
 
 ### Setelah mengunduh, Anda perlu memberikan izin kepada perangkat Android Anda untuk menginstal aplikasi dari sumber eksternal.
 * Pergi ke Pengaturan di perangkat Anda.
@@ -38,16 +41,16 @@
    dan tekan Enter.
  * Pilih opsi Single mirror dan tekan OK.
    
-   <img src="/documentation/Screenshot_single_mirror.jpg"/>
+   <img src="/assets/img/singlemirror.jpg"/>
  * Pilih mirror yang cepat dan andal, seperti linux.domainesia.com, dan tekan OK untuk menyelesaikannya.
 
-   <img src="/documentation/Screenshot_linux.domainesia.jpg"/>
+   <img src="/assets/img/linux.domainesia.jpg"/>
 
 ## 📂 Memberikan Izin Penyimpanan <a name=izin></a>
 
 ### Agar Termux dapat mengakses file di penyimpanan internal perangkat Anda, Anda harus memberikan izin secara manual.
 
-<img src="/documentation/Screenshot_akses_penyimpanan.jpg"/>
+<img src="/assets/img/izin.jpg"/>
 
  * Ketik perintah
    ~~~
@@ -64,14 +67,14 @@
    ~~~
    pkg update
    ~~~
-   <img src="/documentation/Screenshot_update.jpg"/>
+   <img src="/assets/img/update.jpg"/>
 
    dan tekan Enter. Perintah ini akan memperbarui daftar paket yang tersedia.
  * Setelah selesai, ketik
    ~~~
    pkg upgrade
    ~~~
-   <img src="/documentation/Screenshot_upgrade.jpg"/>
+   <img src="/assets/img/upgrade.jpg"/>
 
    dan tekan Enter. Ini akan meningkatkan semua paket yang terinstal ke versi terbaru.
  * Saat diminta untuk melanjutkan (misalnya, Do you want to continue? [Y/n]), cukup ketik y dan tekan Enter sampai proses selesai.
