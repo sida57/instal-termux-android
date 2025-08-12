@@ -49,7 +49,11 @@
 
 <img src="/documentation/Screenshot_akses_penyimpanan.jpg"/>
 
- * Ketik perintah termux-setup-storage dan tekan Enter.
+ * Ketik perintah
+   ~~~
+   termux-setup-storage
+   ~~~
+   dan tekan Enter.
  * Sebuah jendela pop-up akan muncul meminta izin untuk mengakses file. Ketuk Izinkan.
  * Sekarang Anda dapat mengakses folder penyimpanan utama Anda di Termux melalui direktori storage/shared.
 
