@@ -10,21 +10,18 @@
 ## 📥 Mengunduh Aplikasi Termux <a name=unduh></a>
 
 ### Anda harus mengunduh file APK Termux terbaru dari halaman GitHub resmi mereka. Penting untuk mengunduh dari sumber ini karena versi di Google Play Store tidak lagi diperbarui.
-
-<img src="/assets/img/unduh.jpg"/>
-
 * Kunjungi
    ~~~
    https://github.com/termux/termux-app/releases
    ~~~
-   
+   <img src="/assets/img/unduh.jpg"/>
+
 * Unduh file **.apk** versi terbaru yang sesuai untuk perangkat Anda.
    
 ## ⚙️ Mengaktifkan Sumber Tidak Dikenal <a name=sumber></a>
-
+### Setelah mengunduh, Anda perlu memberikan izin kepada perangkat Android Anda untuk menginstal aplikasi dari sumber eksternal.
 <img src="/assets/img/sumber.jpg"/>
 
-### Setelah mengunduh, Anda perlu memberikan izin kepada perangkat Android Anda untuk menginstal aplikasi dari sumber eksternal.
 * Pergi ke Pengaturan di perangkat Anda.
 * Cari menu Keamanan atau Privasi.
 * Cari dan aktifkan opsi Instal aplikasi yang tidak dikenal atau Sumber tidak dikenal.
@@ -47,21 +44,17 @@
    <img src="/assets/img/linux.domainesia.jpg"/>
 
 ## 📂 Memberikan Izin Penyimpanan <a name=izin></a>
-
 ### Agar Termux dapat mengakses file di penyimpanan internal perangkat Anda, Anda harus memberikan izin secara manual.
-
-<img src="/assets/img/izin.jpg"/>
-
  * Ketik perintah
    ~~~
    termux-setup-storage
    ~~~
    dan tekan Enter.
+   
+   <img src="/assets/img/izin.jpg"/>   
  * Sebuah jendela pop-up akan muncul meminta izin untuk mengakses file. Ketuk Izinkan.
  * Sekarang Anda dapat mengakses folder penyimpanan utama Anda di Termux melalui direktori storage/shared.
-
 ## 🚀 Memperbarui dan Meningkatkan Paket <a name=perbarui></a>
-
 ### Ini adalah langkah krusial untuk memastikan semua paket Anda terbaru dan menghindari masalah kompatibilitas.
  * Ketik
    ~~~
@@ -80,7 +73,6 @@
  * Saat diminta untuk melanjutkan (misalnya, Do you want to continue? [Y/n]), cukup ketik y dan tekan Enter sampai proses selesai.
 
 ## 💻 Perintah Dasar Termux <a name=perintah></a>
-
 ### Berikut adalah beberapa perintah penting yang perlu Anda ketahui untuk memulai:
  * pkg update && pkg upgrade: Perintah ini menggabungkan pembaruan daftar paket dan peningkatannya.
  * pkg install <nama_paket>: Digunakan untuk menginstal paket atau aplikasi baru. Contoh: pkg install python.
